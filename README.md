@@ -1,6 +1,6 @@
-# How to display the values with underscore in check boxes of filter control in wpf datagrid
+# How to Display Values with Underscore in Check Boxes of the Filter Control?
 
-This example illustrates how to display the values with underscore in check boxes of filter control in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid)
+This example illustrates how to display values with underscore in check boxes of the filter control in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
 
 By default, the check box will not display the first underscore when the check box contains values with underscores. This is the default behavior of the check box.
 
@@ -14,7 +14,7 @@ You can allow the check box to display first the underscore when the check box c
 
 In, CheckBoxFilterControl style ItemTemplate has been used to load items with check box in filter pop-up. You need to customize this ItemsTemplate to display the underscore value in check box.
 
-### ItemsTemplate Customization
+### ItemsTemplate Customization:
 
 TextBlock has been added to display underscore value in check box. Refer to the following code sample for adding TextBlock in CheckboxFilterControlItemTemplate.
 
@@ -37,7 +37,7 @@ TextBlock has been added to display underscore value in check box. Refer to the 
 </DataTemplate>
 ```
 
-### Style Customization
+### MainPage.Xaml:
 
 ``` xml
 <Style x:Key="CheckboxFilterControlStyle" TargetType="{x:Type syncfusion:CheckboxFilterControl}">
