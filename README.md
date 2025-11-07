@@ -6,9 +6,9 @@ By default, the check box will not display the first underscore when the check b
 
 ### Reference links:
 
-https://stackoverflow.com/questions/25310482/wpf-checkbox-content-not-correct
+[25310482](https://stackoverflow.com/questions/25310482/wpf-checkbox-content-not-correct)
 
-https://stackoverflow.com/questions/4601801/wpf-listbox-skip-underscore-symbols-in-strings
+[4601801](https://stackoverflow.com/questions/4601801/wpf-listbox-skip-underscore-symbols-in-strings)
 
 You can allow the check box to display first the underscore when the check box content contains underscore values in filter pop-up window by overriding the CheckBoxFilterControl style.
 
