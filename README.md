@@ -6,17 +6,17 @@ By default, the check box will not display the first underscore when the check b
 
 ### Reference links:
 
-[25310482](https://stackoverflow.com/questions/25310482/wpf-checkbox-content-not-correct)
+[WPF CheckBox content not correct](https://stackoverflow.com/questions/25310482/wpf-checkbox-content-not-correct)
 
-[4601801](https://stackoverflow.com/questions/4601801/wpf-listbox-skip-underscore-symbols-in-strings)
+[WPF Listbox skip underscore symbols in strings](https://stackoverflow.com/questions/4601801/wpf-listbox-skip-underscore-symbols-in-strings)
 
-You can allow the check box to display first the underscore when the check box content contains underscore values in filter pop-up window by overriding the CheckBoxFilterControl style.
+You can allow the check box to display first the underscore when the check box content contains underscore values in filter pop-up window by overriding the **CheckBoxFilterControl** style.
 
-In, CheckBoxFilterControl style ItemTemplate has been used to load items with check box in filter pop-up. You need to customize this ItemsTemplate to display the underscore value in check box.
+In, **CheckBoxFilterControl** style ItemTemplate has been used to load items with check box in filter pop-up. You need to customize this ItemsTemplate to display the underscore value in check box.
 
 ### ItemsTemplate Customization:
 
-TextBlock has been added to display underscore value in check box. Refer to the following code sample for adding TextBlock in CheckboxFilterControlItemTemplate.
+TextBlock has been added to display underscore value in check box. Refer to the following code sample for adding **TextBlock** in **CheckboxFilterControlItemTemplate**.
 
 ``` xml
 <DataTemplate x:Key="CheckboxFilterControlItemTemplate">
